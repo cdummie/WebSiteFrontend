@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src = "app.js" async> </script>
+
+    </head>
+    
+    <body>
+
+    
+            <h2>Zimski vikend aranzman</h2>
+            <table>
+                <tr> 
+                    <td class="tekst">Ime i prezime:</td>
+                    <td class="forma"><input type="text" size="23"> </td>
+                </tr>
+                <tr> 
+                    <td class="tekst">JMBG: </td>
+                    <td class="forma"><input type="text" size="13" id = "jmbg"> </td>
+                </tr>
+                <tr>
+                    <td class="tekst">Pol:</td>
+                    <td class="forma">muski<input type="radio" id = "male">zenski <input type="radio" id = "female"></td>
+                </tr>
+                <tr>
+                    <td class="tekst">E-posta:</td>
+                    <td class="forma"><input type="text" size="23" id = "mail"></td>
+                </tr>
+                
+                <tr>
+                    <td class="dataVal">Smestaj:</td>
+                    <td class="forma"><input list="htl" size="23" id = "hotel">
+                        <datalist id="htl">
+                            <option value="Hotel - Pun pansion">
+                            <option value="Hotel - Polupansion">
+                        </datalist>
+                    </td>
+                    <td class="forma"><input type="text" size="4" id = "hotelPrice"> </td>
+
+                </tr>
+                <tr>
+                    <td class="dataVal">Ski-pass:</td>
+                    <td class="forma">
+                        <input list="skiPass" size = "6" id = "ski">
+                        <datalist id="skiPass">
+                            <option value="Jednodnevni">
+                            <option value="Dvodnevni">
+                            <option value="Trodnevni">                            
+                        </datalist>
+                    </td>
+                    <td class="forma"><input type="text" size="4" id = "skiPrice"> </td>
+                </tr>
+                
+                <tr>
+                    <td class="dataVal">Ski oprema:</td>
+                    <td class="forma">
+                        <input type="radio" id = "equipY"> DA <input type="radio" id = "equipN"> NE
+                    </td>
+                    <td class="forma"><input type="text" size="4" id = "equipmentPrice"> </td>
+                </tr>
+                
+                <tr>
+                    <td class="dataVal">Prevoz:</td>
+                    <td class="forma">
+                        <input type="radio" id = "transportY"> DA <input type="radio" id = "transportN"> NE
+                    </td>
+                    <td class="forma"><input type="text" size="4" id = "transportPrice"> </td>
+                </tr>
+                
+                <tr>
+                    <td class="dataVal"></td>
+                    <td class="forma">
+                        Osoba u pratnji: <input type = "checkbox" id = "personCheck">
+                    </td>
+                    <td> <input type = "text" id = "sum" size = "4" id = "sum"> </td> 
+                    
+                </tr>
+                
+                 <tr>
+                    <td class="text">Ime i prezime osobe:</td>
+                    <td class="forma"><input type="text" size="23"  id = "secondPerson" disabled></td>
+                    
+                </tr>
+                
+                <tr class="buttons">
+                    <td class = "text"><input type="button"  value="Potvrdi unos" id = "confirm"></td>
+                    <td class = "forma"> <input type="button" value="Kupi" id = "buy"> </td>
+                </tr>
+
+            </table>
+      
+    
+    </body>
+</html>

@@ -1,0 +1,129 @@
+/* index.html */
+html, body{
+    margin:0;
+} 
+
+/* index.html */
+iframe{
+    position: absolute;
+    height:680px;
+    width:700px;
+    background-color:rgb(238,238,238);
+    left:200px;
+    
+}
+ /* content.html */
+h2{
+    text-align: center;
+}
+
+/* content.html */
+table{
+    position: absolute;
+    left:150px;
+    width:550px;
+    
+}
+
+/* content.html */
+tr.buttons{
+    position: absolute;
+    left:100px;
+}
+
+/* content.html */
+td.tekst{
+    position: relative;
+    text-align: right;
+    
+}
+
+/* content.html */
+td.dataVal{
+    position: relative;
+    text-align: right;
+}
+
+/* sadrzaj.html */
+td.forma{
+    width:200px;
+}
+
+
+/* index.html */
+.header p{
+    margin:0px;
+    position: relative;
+    padding:30px;
+    font-weight: bold;
+
+}
+
+
+/* index.html */
+.meniDesni p{
+    padding-top:10px;
+    font-weight: bold;
+}
+
+
+/* index.html */
+.meniLevi h4{
+    text-align: center;
+}
+
+
+/* index.html */
+.header{
+    height:300px;
+    width:1200px;
+    color:yellow;
+    position:relative;
+    text-align: right;
+    
+    font-size: 20px;
+    background-image: url(skijanje_header.jpg);
+    background-repeat: no-repeat;
+
+    
+}
+
+
+/* index.html */
+.leftMenu{
+    position:absolute;
+    height: 700px;
+    width: 200px;
+    background-color: rgb(255, 215, 0);
+}
+
+
+
+
+/* index.html */
+.rightMenu{
+    position:absolute;
+    left:900px;
+    height:680px;
+    width:300px;
+    background-color:rgb(255,215,0);
+       
+}
+
+
+/* index.html */
+.footer{
+    position:absolute;
+    height:20px;
+    width:1000px;
+    left:200px;
+    top:980px;
+    background-color:rgb(255,155,0);
+    
+    text-align: center;
+}
+
+img{
+    height:200px;
+    width:300px;
+}
